@@ -1,6 +1,6 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 0;
+    margin: 2%vw;
     padding: 0;
     background-color: #25b725;
 }
@@ -72,5 +72,41 @@ body {
 
 .container {
     padding: 16px;
+}
+
+
+#experiancecard {
+    background-color: #320a77;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap; 
+}
+
+
+#aboutcard {
+    background-color: #9f1515;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap; 
+}
+
+
+.mainsec {
+    background-color: #6810c73b;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap; 
 }
 
