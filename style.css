@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
-    margin: 2%vw;
-    padding: 0;
+    margin: 0;
+    padding: 16px;
     background-color: #25b725;
 }
 
@@ -100,13 +100,43 @@ body {
 
 
 .mainsec {
-    background-color: #6810c73b;
+    background-color: rgba(104,16,199,0.23);
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
     display: flex;
-    align-items: center;
-    gap: 16px;
+    align-items: flex-start; 
+    gap: 24px;
     flex-wrap: wrap; 
+}
+
+
+.mainsec .col {
+    box-sizing: border-box;
+    padding: 8px;
+    background: #fff;
+    border-radius: 6px;
+}
+
+
+#experience {
+    flex: 2 1 520px; 
+    min-width: 280px;
+}
+
+#skills {
+    flex: 1 1 240px; 
+    min-width: 220px;
+}
+
+
+@media (max-width: 900px) {
+    .mainsec {
+        flex-direction: column;
+    }
+
+    #experience, #skills {
+        flex: 1 1 100%;
+    }
 }
 
