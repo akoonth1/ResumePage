@@ -1,0 +1,52 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #25b725;
+}
+
+#headcard {
+    background-color: #ffffff;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    display: flex;
+    align-items: center;
+    gap: 16px;
+    flex-wrap: wrap; /
+}
+
+
+#headcard img,
+#headcard #headshot {
+    border-radius: 50%;
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    flex: 0 0 auto; 
+}
+
+
+#headcard h1 {
+    margin: 0;
+    font-size: 1.6rem;
+    flex: 1 1 auto; 
+    min-width: 0;
+
+
+@media (max-width: 480px) {
+    #headcard img,
+    #headcard #headshot {
+        width: 96px;
+        height: 96px;
+    }
+
+    #headcard h1 {
+        font-size: 1.2rem;
+    }
+}
+
+.container {
+    padding: 16px;
+}
+
