@@ -1,8 +1,16 @@
 body {
     font-family: Arial, sans-serif;
     margin: 0;
-    padding: 16px;
+    padding: 0;
     background-color: #25b725;
+}
+
+/* Center the page content and constrain width */
+.site {
+    max-width: 1080px;
+    margin: 0 auto; /* centers when viewport is wider than 1080px */
+    padding: 0 16px; /* small side padding on narrow screens */
+    box-sizing: border-box;
 }
 
 #headcard {
@@ -72,6 +80,9 @@ body {
 
 .container {
     padding: 16px;
+    text-align: center;
+    justify-content: center; 
+    align-items: center;    
 }
 
 
@@ -129,6 +140,10 @@ body {
     min-width: 220px;
 }
 
+#education {
+    flex: 1 1 240px; 
+    min-width: 220px;
+}
 
 @media (max-width: 900px) {
     .mainsec {
