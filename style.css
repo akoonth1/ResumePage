@@ -87,7 +87,7 @@ body {
 
 
 #experiancecard {
-    background-color: #320a77;
+    background-color: #afa8bc;
     width: 100%;
     padding: 20px;
     box-sizing: border-box;
@@ -99,13 +99,13 @@ body {
 
 
 #aboutcard {
-    background-color: #9f1515;
+    background-color: #90aae3;
     width: 100%;
-    padding: 20px;
+    padding: 15px;
     box-sizing: border-box;
     display: flex;
     align-items: center;
-    gap: 16px;
+    gap: 10px;
     flex-wrap: wrap; 
 }
 
@@ -130,6 +130,20 @@ body {
 }
 
 
+.volunteer {
+    margin-top: 12px;
+    padding: 12px;
+    background: #f4f6f8;
+    border-radius: 6px;
+    box-shadow: 0 1px 0 rgba(0,0,0,0.04);
+}
+
+.volunteer h3 {
+    margin: 0 0 8px 0;
+    font-size: 1rem;
+}
+
+
 #experience {
     flex: 2 1 520px; 
     min-width: 280px;
@@ -144,6 +158,12 @@ body {
     flex: 1 1 240px; 
     min-width: 220px;
 }
+
+#volunteering {
+    flex: 1 1 20px; 
+    min-width: 200 px;
+}
+
 
 @media (max-width: 900px) {
     .mainsec {
