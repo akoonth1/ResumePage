@@ -2,14 +2,14 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #25b725;
+    background-color: #a2a2a2;
 }
 
-/* Center the page content and constrain width */
+
 .site {
     max-width: 1080px;
-    margin: 0 auto; /* centers when viewport is wider than 1080px */
-    padding: 0 16px; /* small side padding on narrow screens */
+    margin: 0 auto; 
+    padding: 0 16px; 
     box-sizing: border-box;
 }
 
